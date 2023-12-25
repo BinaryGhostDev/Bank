@@ -1,0 +1,69 @@
+**Install MySQL on Windows:**
+
+1. **Download MySQL Installer:**
+   Visit the official MySQL website (https://dev.mysql.com/downloads/installer/) and download the MySQL Installer for Windows. Choose the version that suits your system architecture (32-bit or 64-bit).
+
+2. **Run the Installer:**
+   Execute the downloaded installer. The installer will guide you through the setup process.
+
+3. **Choosing Setup Type:**
+   During installation, you'll be prompted to choose a setup type. For most users, the recommended setup type is "Developer Default" or "Server Only."
+
+4. **MySQL Server Configuration:**
+   Configure the MySQL Server by setting up a root password. This password is essential for the MySQL root user.
+
+5. **MySQL Server Configuration:**
+   Configure the MySQL Server by setting up a root password. This password is essential for the MySQL root user.
+
+6. **Check for Updates:**
+   The installer may check for updates. Choose whether you want to include or exclude this step.
+
+7. **Product Configuration:**
+   Configure additional MySQL products if needed (e.g., MySQL Workbench, MySQL Shell). For a basic installation, you can stick with the default selections.
+
+8. **Installation:**
+   Proceed with the installation process. The installer will download and install the selected components.
+
+9. **Complete the Installation:**
+   Once the installation is complete, the installer will display a summary. Make sure there are no errors during the installation.
+
+10. **Launch MySQL Workbench:**
+    If you installed MySQL Workbench, you can launch it to interact with your MySQL Server. It provides a graphical user interface for managing MySQL databases.
+
+**Post-Installation:**
+- Make sure the MySQL service is running. You can do this through the Windows Services application.
+- Optionally, you can set up environment variables to include the MySQL binaries in your system's PATH.
+
+11. Edit these details
+
+        db = mysql.connector.connect(
+            host="localhost",
+            user="your_username",
+            password="your_password",
+            database="bank"
+        )
+
+database name you can change it when you run this script database name will be bank so if you think about another database name then change it and run in your terminal ==> python db.py
+
+**Run Command in the terminal:** =====>    python db.py
+
+
+12. Then Go to src/db_connector.py 
+
+# db_connector.py
+
+import mysql.connector
+
+def connect_to_database():
+    return mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="admin9182",
+        database="bank_manage"
+    )
+
+Update these details as per your credentials
+
+Any Further issues or creation new project or any website development you can contact me on telegram => @rajanGoswami_dev
+
+Enjoy it !!
