@@ -66,6 +66,18 @@ def create_tables():
             )
         """)
 
+        # Insert dummy data for an admin user
+        cursor.execute("""
+            INSERT INTO users (username, password, role, first_name, last_name)
+            VALUES ('RajanGoswami', 'admin', 'manager', 'Rajan', 'Goswami')
+        """)
+
+        # Insert dummy data for an admin user
+        cursor.execute("""
+            INSERT INTO users (username, password, role, first_name, last_name)
+            VALUES ('Admin', 'admin', 'manager', 'admin', 'admin')
+        """)
+
         db.commit()
         print("Tables created successfully!")
 
@@ -77,5 +89,5 @@ def create_tables():
             cursor.close()
             db.close()
 
-# Call the function to create tables
+# Call the function to create tables and insert dummy data
 create_tables()
