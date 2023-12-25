@@ -1,5 +1,5 @@
 import random
-import getpass 
+import getpass
 from src.db_connector import connect_to_database
 from src.text_color import success_message, error_message
 
@@ -40,7 +40,7 @@ def create_bank_account():
         username, first_name, last_name, dob, aadhar_card_number,
         mobile_number, address, branch_name, branch_code,
         ifsc_code,  # Set default IFSC code
-        account_number, getpass("Enter password: "), pin
+        account_number, getpass.getpass("Enter password: "), pin  # Fix here
     )
 
     try:
