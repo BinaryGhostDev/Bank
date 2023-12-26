@@ -1,11 +1,11 @@
-# Bank Management System ( SCHOOL PROJECT )
-Bank Management System: A user-friendly Python project for education and personal finance. Seamlessly manage accounts, ensure security, and track transactions. Ideal for learning programming and practical personal finance management.
+# Bank Management System (SCHOOL PROJECT)
 
+Bank Management System: A user-friendly Python project for education and personal finance. Seamlessly manage accounts, ensure security, and track transactions. Ideal for learning programming and practical personal finance management.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/downloads/)
 
-🏦 Welcome to the Bank project! This is a Python-based banking system that allows users to create accounts, perform transactions, and manage their finances securely.
+🏦 Welcome to the Bank project! This Python-based banking system allows users to create accounts, perform transactions, and manage finances securely.
 
 [![Watch the Vimeo video](https://i.postimg.cc/NFqgKv6J/BANK-MANAGEMENT-RAJAN.png)](https://vimeo.com/897814966?share=copy)
 
@@ -26,7 +26,7 @@ Bank Management System: A user-friendly Python project for education and persona
 
 ## Installation for Linux or Ubuntu
 
-* If you are Windows users you can zip download and same process for all users
+* If you are Windows users, you can zip download and follow the same process.
 
 1. Clone the repository:
 
@@ -42,8 +42,7 @@ Bank Management System: A user-friendly Python project for education and persona
 
 3. Install dependencies:
 
-* Change these details from ( requirements.txt ) 'your_username'@'localhost' IDENTIFIED BY 'your_password' these details as per your 
-  MySql Credentials
+* Change these details from (requirements.txt) 'your_username'@'localhost' IDENTIFIED BY 'your_password' as per your MySql Credentials.
 
    ```bash
    pip install -r requirements.txt
@@ -53,11 +52,9 @@ Bank Management System: A user-friendly Python project for education and persona
 
 1. Create and initialize database tables:
 
-* Update these details from ( db.py ) user="your_username", password="your_password", database="your_database_name"
+* Update these details from (db.py) user="your_username", password="your_password", database="your_database_name".
 
- `Insert dummy data for an admin user => INSERT INTO users (username, password, role, first_name, last_name) VALUES ('your_username', 
-  'your_password', 'manager', 'your_first_name', 'your_last_name')`
-  
+ `Insert dummy data for an admin user => INSERT INTO users (username, password, role, first_name, last_name) VALUES ('your_username', 'your_password', 'manager', 'your_first_name', 'your_last_name')`
             
    ```bash
    python db.py
@@ -80,7 +77,6 @@ Bank Management System: A user-friendly Python project for education and persona
 3. Make your changes and commit them: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Open a pull request.
-
 
 Donate ❤️ Upi Id - rajangoswami@fam
 
