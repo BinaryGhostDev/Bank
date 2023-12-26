@@ -51,7 +51,7 @@ Bank Management System: A user-friendly Python project for education and persona
 
 1. Create and initialize database tables:
 
-Update these details from ( db.py ) user="your_username", password="your_password", database="your_database_name"
+* Update these details from ( db.py ) user="your_username", password="your_password", database="your_database_name"
             
    ```bash
    python db.py
@@ -67,7 +67,7 @@ Update these details from ( db.py ) user="your_username", password="your_passwor
 
 ## Contributing
 
-Contributions are welcome! Please follow these guidelines:
+* Contributions are welcome! Please follow these guidelines:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/your-feature-name`.
