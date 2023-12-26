@@ -40,7 +40,8 @@ Bank Management System: A user-friendly Python project for education and persona
 
 3. Install dependencies:
 
-Change these details from ( requirements.txt ) 'your_username'@'localhost' IDENTIFIED BY 'your_password' these details as per your MySql Credentials
+* Change these details from ( requirements.txt ) 'your_username'@'localhost' IDENTIFIED BY 'your_password' these details as per your 
+  MySql Credentials
 
    ```bash
    pip install -r requirements.txt
