@@ -6,5 +6,5 @@ mysql-connector-python>=8.0.0
 # Add commands for setting up MySQL, if necessary
 # For example, if you are using MySQL Server, you might want to include:
 # CREATE DATABASE IF NOT EXISTS bank;
-# GRANT ALL PRIVILEGES ON bank.* TO 'your_username'@'localhost' IDENTIFIED BY 'your_password';
+# GRANT ALL PRIVILEGES ON bank.* TO 'root'@'localhost' IDENTIFIED BY 'your_password';
 # FLUSH PRIVILEGES;
