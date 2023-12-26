@@ -7,7 +7,7 @@ Bank Management System: A user-friendly Python project for education and persona
 
 🏦 Welcome to the Bank project! This is a Python-based banking system that allows users to create accounts, perform transactions, and manage their finances securely.
 
-[![Watch the Vimeo video](https://i.postimg.cc/Jz72cYKp/ezgif-com-webp-to-png-converter.png)](https://vimeo.com/897814966?share=copy)
+[![Watch the Vimeo video](https://i.postimg.cc/sfhxswYH/BANK-MANAGEMENT-RAJAN.png)](https://vimeo.com/897814966?share=copy)
 
 ## Features
 
