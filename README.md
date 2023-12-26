@@ -22,7 +22,9 @@ Bank Management System: A user-friendly Python project for education and persona
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+## Installation for Linux or Ubuntu
+
+* If you are Windows users you can zip download and same process for all users
 
 1. Clone the repository:
 
@@ -38,6 +40,8 @@ Bank Management System: A user-friendly Python project for education and persona
 
 3. Install dependencies:
 
+Change these details from ( requirements.txt ) 'your_username'@'localhost' IDENTIFIED BY 'your_password' these details as per your MySql Credentials
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -46,8 +50,10 @@ Bank Management System: A user-friendly Python project for education and persona
 
 1. Create and initialize database tables:
 
+Update these details from ( db.py ) user="your_username", password="your_password", database="your_database_name"
+            
    ```bash
-   python main.py init
+   python db.py
    ```
 
 2. Run the application:
@@ -68,9 +74,9 @@ Contributions are welcome! Please follow these guidelines:
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Open a pull request.
 
+Donate ❤️ Upi Id - rajangoswami@fam
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-Replace the placeholders with your actual information. I've included badges for the MIT License and Python version, but feel free to customize them based on your project's license and requirements.
