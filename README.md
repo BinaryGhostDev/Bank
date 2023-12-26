@@ -53,7 +53,8 @@ Bank Management System: A user-friendly Python project for education and persona
 
 * Update these details from ( db.py ) user="your_username", password="your_password", database="your_database_name"
 
-`Insert dummy data for an admin user => INSERT INTO users (username, password, role, first_name, last_name) VALUES ('your_username', 'your_password', 'manager', 'your_first_name', 'your_last_name')`
+ `Insert dummy data for an admin user => INSERT INTO users (username, password, role, first_name, last_name) VALUES ('your_username', 
+  'your_password', 'manager', 'your_first_name', 'your_last_name')`
             
    ```bash
    python db.py
