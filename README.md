@@ -48,25 +48,30 @@ Bank Management System: A user-friendly Python project for education and persona
    pip install -r requirements.txt
    ```
 
+Certainly! Here's a formatted version of the "Usage" section:
+
 ## Usage
 
-1. Create and initialize database tables:
+### 1. Create and initialize database tables:
 
-* Update these details from (db.py) user="your_username", password="your_password", database="your_database_name".
+* Update these details from `db.py`: `user="your_username"`, `password="your_password"`, `database="your_database_name"`.
 
- `Insert dummy data for an admin user => INSERT INTO users (username, password, role, first_name, last_name) VALUES ('your_username', 'your_password', 'manager', 'your_first_name', 'your_last_name')`
-            
    ```bash
    python db.py
    ```
 
-2. Run the application:
+   - Insert dummy data for an admin user:
+     ```sql
+     INSERT INTO users (username, password, role, first_name, last_name) VALUES ('your_username', 'your_password', 'manager', 'your_first_name', 'your_last_name')
+     ```
+
+### 2. Run the application:
 
    ```bash
    python main.py
    ```
 
-3. Follow the on-screen prompts to navigate through the banking system.
+### 3. Follow the on-screen prompts to navigate through the banking system.
 
 ## Contributing
 
