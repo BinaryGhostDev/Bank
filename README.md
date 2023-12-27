@@ -2,7 +2,7 @@
 
 Bank Management System: A user-friendly Python project for education and personal finance. Seamlessly manage accounts, ensure security, and track transactions. Ideal for learning programming and practical personal finance management.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0)
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/downloads/)
 
 🏦 Welcome to the Bank project! This Python-based banking system allows users to create accounts, perform transactions, and manage finances securely.
