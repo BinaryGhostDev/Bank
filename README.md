@@ -56,12 +56,12 @@ Certainly! Here's a formatted version of the "Usage" section:
 
 * Update these details from `db.py`: `user="your_username"`, `password="your_password"`, `database="your_database_name"`.
 
-   - Insert dummy data for an admin user:
+Insert dummy data for an admin user:
      ```sql
      INSERT INTO users (username, password, role, first_name, last_name) VALUES ('your_username', 'your_password', 'manager', 'your_first_name', 'your_last_name')
      ```
 
-    ```bash
+   - ```bash
     python db.py
     ```
 
